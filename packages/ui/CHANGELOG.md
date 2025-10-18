@@ -1,5 +1,39 @@
 # Changelog
 
+## [3.0.0](https://github.com/jonreesesplxvrk/mimir-wallet/compare/ui-v2.32.0...ui-v3.0.0) (2025-10-18)
+
+
+### Features
+
+* add ai assistant for mimir ([#319](https://github.com/jonreesesplxvrk/mimir-wallet/issues/319)) ([9a90153](https://github.com/jonreesesplxvrk/mimir-wallet/commit/9a9015398da9d005648503945785088aefa57bd2))
+* Add cross-chain calldata display component ([#291](https://github.com/jonreesesplxvrk/mimir-wallet/issues/291)) ([66a624f](https://github.com/jonreesesplxvrk/mimir-wallet/commit/66a624f8b81e06d03098bca1d0a36178984ee4ec))
+* Add cross-chain simulation support with XCM integration ([#285](https://github.com/jonreesesplxvrk/mimir-wallet/issues/285)) ([30bc917](https://github.com/jonreesesplxvrk/mimir-wallet/commit/30bc917a9257345557e0f6a9ddef0241c014b2d6))
+* Add dry run API support for transaction simulation ([#207](https://github.com/jonreesesplxvrk/mimir-wallet/issues/207)) ([460cc02](https://github.com/jonreesesplxvrk/mimir-wallet/commit/460cc02f33e5c2e7fa4632ac6e15bdfdcfe1d05b))
+* add global account search and refactor UI components ([#167](https://github.com/jonreesesplxvrk/mimir-wallet/issues/167)) ([eaf98d7](https://github.com/jonreesesplxvrk/mimir-wallet/commit/eaf98d7bd49a1de90fd4ae952895f207adbb5386))
+* Add notification center feature ([#282](https://github.com/jonreesesplxvrk/mimir-wallet/issues/282)) ([35de189](https://github.com/jonreesesplxvrk/mimir-wallet/commit/35de189a9b5d76d5ae975fbd154fde99309d2970))
+* add permission check when submit transaction ([#164](https://github.com/jonreesesplxvrk/mimir-wallet/issues/164)) ([c14fbe4](https://github.com/jonreesesplxvrk/mimir-wallet/commit/c14fbe474287e8bb675bca1ca6155928d6b150bd))
+* Add proposer management for multisig members and enable propose transaction submission ([#171](https://github.com/jonreesesplxvrk/mimir-wallet/issues/171)) ([22ff052](https://github.com/jonreesesplxvrk/mimir-wallet/commit/22ff052b2603120e144a6ce368eb83e6988772a2))
+* Add sonner to replace react-toastify ([#280](https://github.com/jonreesesplxvrk/mimir-wallet/issues/280)) ([eb556b2](https://github.com/jonreesesplxvrk/mimir-wallet/commit/eb556b2e1ae1e1d645da32cf97d51806a232c59b))
+* add template detail view functionality ([#174](https://github.com/jonreesesplxvrk/mimir-wallet/issues/174)) ([2357a1f](https://github.com/jonreesesplxvrk/mimir-wallet/commit/2357a1f1ec13db9a39fcf9234f853825f98ce8c6))
+* Add zkVerify testnet supported ([#251](https://github.com/jonreesesplxvrk/mimir-wallet/issues/251)) ([42275ff](https://github.com/jonreesesplxvrk/mimir-wallet/commit/42275ffdff6e2565f754a86c8a3939b33e1add7d))
+* allow adding lower permission proxies when higher permission proxies exist ([#215](https://github.com/jonreesesplxvrk/mimir-wallet/issues/215)) ([191354b](https://github.com/jonreesesplxvrk/mimir-wallet/commit/191354b158c1a42025d521715de63e6bd5c3df4a))
+* Fee payment with any sufficient asset on AssetHub ([#254](https://github.com/jonreesesplxvrk/mimir-wallet/issues/254)) ([3b3bb11](https://github.com/jonreesesplxvrk/mimir-wallet/commit/3b3bb11e2b490e575741277f85facf982468d243))
+* implement AssetHub migration support ([#259](https://github.com/jonreesesplxvrk/mimir-wallet/issues/259)) ([07db7a0](https://github.com/jonreesesplxvrk/mimir-wallet/commit/07db7a0a2fcf3998ed0ea7b10ce2c8d2019332b1))
+* Improve UI display and user experience ([#218](https://github.com/jonreesesplxvrk/mimir-wallet/issues/218)) ([9d7ac2a](https://github.com/jonreesesplxvrk/mimir-wallet/commit/9d7ac2aeb2a30508082e389dea3322e8f902315b))
+* migrate some ui components to shadcn ([#278](https://github.com/jonreesesplxvrk/mimir-wallet/issues/278)) ([a01118c](https://github.com/jonreesesplxvrk/mimir-wallet/commit/a01118ceb1f0639772fdcfe9a542d0dc6d866431))
+* refactor home UI and add assets,analytic pages ([#270](https://github.com/jonreesesplxvrk/mimir-wallet/issues/270)) ([ff65e8d](https://github.com/jonreesesplxvrk/mimir-wallet/commit/ff65e8d8c7024cdd1f8219d1d89d1b053794c7ab))
+* Refactor sidebar system with modular architecture and ShadCN integration ([#293](https://github.com/jonreesesplxvrk/mimir-wallet/issues/293)) ([081ac2c](https://github.com/jonreesesplxvrk/mimir-wallet/commit/081ac2cb6972f42019591e9ab768cf97bf0ba72a))
+* remove assethub next westend network ([#232](https://github.com/jonreesesplxvrk/mimir-wallet/issues/232)) ([ad3366f](https://github.com/jonreesesplxvrk/mimir-wallet/commit/ad3366f236b0d5784e6b0b0826b28bea5243202b))
+* **structure:** initialize monorepo with turborepo, and begin migration from MUI to Hero UI ([#162](https://github.com/jonreesesplxvrk/mimir-wallet/issues/162)) ([88387c9](https://github.com/jonreesesplxvrk/mimir-wallet/commit/88387c98b172b1d27316fdb9c8bc3558e86067ac))
+* **ui:** enhance transaction components and improve user experience ([#261](https://github.com/jonreesesplxvrk/mimir-wallet/issues/261)) ([1c43855](https://github.com/jonreesesplxvrk/mimir-wallet/commit/1c43855f479fa1665b9240453e1ed8aa23ec8a4f))
+
+
+### Bug Fixes
+
+* fix some ui issues ([59ae8c4](https://github.com/jonreesesplxvrk/mimir-wallet/commit/59ae8c495193628f1f0511207379a3b39ae73646))
+* Fix some UI issues ([#257](https://github.com/jonreesesplxvrk/mimir-wallet/issues/257)) ([3f51f43](https://github.com/jonreesesplxvrk/mimir-wallet/commit/3f51f432843d36a36ac0e026dce959ad38eda328))
+* Remove duplicate dirty data in transaction approval ([#165](https://github.com/jonreesesplxvrk/mimir-wallet/issues/165)) ([96eeb31](https://github.com/jonreesesplxvrk/mimir-wallet/commit/96eeb31dcae2e7a7cc6691cac141d6bb5e739e76))
+
 ## [2.32.0](https://github.com/mimir-labs/mimir-wallet/compare/ui-v2.31.0...ui-v2.32.0) (2025-10-14)
 
 

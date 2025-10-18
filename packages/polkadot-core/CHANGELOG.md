@@ -1,5 +1,54 @@
 # Changelog
 
+## [3.0.0](https://github.com/jonreesesplxvrk/mimir-wallet/compare/polkadot-core-v2.32.0...polkadot-core-v3.0.0) (2025-10-18)
+
+
+### Features
+
+* Add Acurast Canary network support ([#323](https://github.com/jonreesesplxvrk/mimir-wallet/issues/323)) ([2c58a21](https://github.com/jonreesesplxvrk/mimir-wallet/commit/2c58a21fb408ccc6ef2b3fc0008c66cdacf58ed5))
+* Add astar network support ([#230](https://github.com/jonreesesplxvrk/mimir-wallet/issues/230)) ([6b6a72f](https://github.com/jonreesesplxvrk/mimir-wallet/commit/6b6a72f40c544eb42d991fb5573d3f77bc61bdff))
+* Add cross-chain calldata display component ([#291](https://github.com/jonreesesplxvrk/mimir-wallet/issues/291)) ([66a624f](https://github.com/jonreesesplxvrk/mimir-wallet/commit/66a624f8b81e06d03098bca1d0a36178984ee4ec))
+* Add cross-chain simulation support with XCM integration ([#285](https://github.com/jonreesesplxvrk/mimir-wallet/issues/285)) ([30bc917](https://github.com/jonreesesplxvrk/mimir-wallet/commit/30bc917a9257345557e0f6a9ddef0241c014b2d6))
+* Add dry run API support for transaction simulation ([#207](https://github.com/jonreesesplxvrk/mimir-wallet/issues/207)) ([460cc02](https://github.com/jonreesesplxvrk/mimir-wallet/commit/460cc02f33e5c2e7fa4632ac6e15bdfdcfe1d05b))
+* Add ErrorBoundary for submit transaction ([#309](https://github.com/jonreesesplxvrk/mimir-wallet/issues/309)) ([79517df](https://github.com/jonreesesplxvrk/mimir-wallet/commit/79517df425a0399dd24a7a2da8dfc720df2fb5b4))
+* Add moonbeam and tanssi network support ([#327](https://github.com/jonreesesplxvrk/mimir-wallet/issues/327)) ([0018a26](https://github.com/jonreesesplxvrk/mimir-wallet/commit/0018a269d62e4094519bdab3cf863b1fa17197ac))
+* Add notification center feature ([#282](https://github.com/jonreesesplxvrk/mimir-wallet/issues/282)) ([35de189](https://github.com/jonreesesplxvrk/mimir-wallet/commit/35de189a9b5d76d5ae975fbd154fde99309d2970))
+* Add PAssetHub network support ([#239](https://github.com/jonreesesplxvrk/mimir-wallet/issues/239)) ([0bd7fc6](https://github.com/jonreesesplxvrk/mimir-wallet/commit/0bd7fc65060592e0aaa495bbcb68253288294d81))
+* add relay chain auto-dependency for all parachains ([#321](https://github.com/jonreesesplxvrk/mimir-wallet/issues/321)) ([94a9000](https://github.com/jonreesesplxvrk/mimir-wallet/commit/94a90002833c5aa60b5da79f96e8ebdecc547e6c))
+* Add remote proxy support ([#236](https://github.com/jonreesesplxvrk/mimir-wallet/issues/236)) ([bf5b509](https://github.com/jonreesesplxvrk/mimir-wallet/commit/bf5b50956ce140bce5ef547751f6782a807a4358))
+* Add walletconnect in dapp page ([#217](https://github.com/jonreesesplxvrk/mimir-wallet/issues/217)) ([7fa102d](https://github.com/jonreesesplxvrk/mimir-wallet/commit/7fa102dd5474967adc1ca4a4333ffa78e7705720))
+* Add xcavate network support ([#237](https://github.com/jonreesesplxvrk/mimir-wallet/issues/237)) ([8a63e42](https://github.com/jonreesesplxvrk/mimir-wallet/commit/8a63e42ba72f6864ed84a8d82f411bde07655e5e))
+* Add zkverify mainnet support ([#312](https://github.com/jonreesesplxvrk/mimir-wallet/issues/312)) ([ffa4c0b](https://github.com/jonreesesplxvrk/mimir-wallet/commit/ffa4c0b5e1b8c9b9badde22e1fe9a42a74106b6e))
+* Add zkVerify testnet supported ([#251](https://github.com/jonreesesplxvrk/mimir-wallet/issues/251)) ([42275ff](https://github.com/jonreesesplxvrk/mimir-wallet/commit/42275ffdff6e2565f754a86c8a3939b33e1add7d))
+* Fee payment with any sufficient asset on AssetHub ([#254](https://github.com/jonreesesplxvrk/mimir-wallet/issues/254)) ([3b3bb11](https://github.com/jonreesesplxvrk/mimir-wallet/commit/3b3bb11e2b490e575741277f85facf982468d243))
+* Improve UI display and user experience ([#218](https://github.com/jonreesesplxvrk/mimir-wallet/issues/218)) ([9d7ac2a](https://github.com/jonreesesplxvrk/mimir-wallet/commit/9d7ac2aeb2a30508082e389dea3322e8f902315b))
+* Optimize balance retrieval logic ([#311](https://github.com/jonreesesplxvrk/mimir-wallet/issues/311)) ([f5ab601](https://github.com/jonreesesplxvrk/mimir-wallet/commit/f5ab60154016b37483b5cf7c0b40e77c400967b2))
+* optimize rpc connection and improve network stability ([#193](https://github.com/jonreesesplxvrk/mimir-wallet/issues/193)) ([fd16e71](https://github.com/jonreesesplxvrk/mimir-wallet/commit/fd16e717e9e7d1443545b3ad5abfd2d0261883d6))
+* remove assethub next westend network ([#232](https://github.com/jonreesesplxvrk/mimir-wallet/issues/232)) ([ad3366f](https://github.com/jonreesesplxvrk/mimir-wallet/commit/ad3366f236b0d5784e6b0b0826b28bea5243202b))
+* subscribe wallet accounts changed ([#176](https://github.com/jonreesesplxvrk/mimir-wallet/issues/176)) ([d8f04e7](https://github.com/jonreesesplxvrk/mimir-wallet/commit/d8f04e76ecbf77af7137c3c11d51a1e724bfc4ef))
+* Support eth address transfer on westend ([#234](https://github.com/jonreesesplxvrk/mimir-wallet/issues/234)) ([ed33919](https://github.com/jonreesesplxvrk/mimir-wallet/commit/ed33919a37785076c7a84e8826de40169d0a0c30))
+* support eth address trasfer on westend assethub ([#224](https://github.com/jonreesesplxvrk/mimir-wallet/issues/224)) ([16df8a6](https://github.com/jonreesesplxvrk/mimir-wallet/commit/16df8a6d0ff6f83f2ad64a72455dd5904e0e9aec))
+* **ui:** enhance transaction components and improve user experience ([#261](https://github.com/jonreesesplxvrk/mimir-wallet/issues/261)) ([1c43855](https://github.com/jonreesesplxvrk/mimir-wallet/commit/1c43855f479fa1665b9240453e1ed8aa23ec8a4f))
+* **ui:** refactor add proxy UX with responsive design and step wizard ([#268](https://github.com/jonreesesplxvrk/mimir-wallet/issues/268)) ([e256252](https://github.com/jonreesesplxvrk/mimir-wallet/commit/e25625280643af9f35dc4ba2bb04495fa6887a23))
+* **ui:** refactor create multisig UX with responsive design and step wizard ([#267](https://github.com/jonreesesplxvrk/mimir-wallet/issues/267)) ([e07df8a](https://github.com/jonreesesplxvrk/mimir-wallet/commit/e07df8a2b0e5b5755782d79380d2e699ab9263d9))
+* Upgrade polkadotjs to 16.2.2 to support ExtrinsicV5 ([#247](https://github.com/jonreesesplxvrk/mimir-wallet/issues/247)) ([129315f](https://github.com/jonreesesplxvrk/mimir-wallet/commit/129315ff53b6d7010256c30797e54b6dd2fa83d3))
+
+
+### Bug Fixes
+
+* fix nexu hash calculation in polkadot-core tx module ([#178](https://github.com/jonreesesplxvrk/mimir-wallet/issues/178)) ([2abe685](https://github.com/jonreesesplxvrk/mimir-wallet/commit/2abe68561104fe18311e8dfb19c9bf60430e12ac))
+* Fix some issues while connect wallet ([#220](https://github.com/jonreesesplxvrk/mimir-wallet/issues/220)) ([f080a17](https://github.com/jonreesesplxvrk/mimir-wallet/commit/f080a170ca4b1454cfe788539e30d604c69eb5ad))
+* improve user experience and fix bugs ([#222](https://github.com/jonreesesplxvrk/mimir-wallet/issues/222)) ([062382f](https://github.com/jonreesesplxvrk/mimir-wallet/commit/062382f07cee5da36e31b0d2cbf24420c2fb8ef4))
+* optimize balance fetching performance ([#228](https://github.com/jonreesesplxvrk/mimir-wallet/issues/228)) ([6d3fe57](https://github.com/jonreesesplxvrk/mimir-wallet/commit/6d3fe57e99641510509372ee49542e0976bb6e35))
+* optimize user experience and fix some bugs ([#226](https://github.com/jonreesesplxvrk/mimir-wallet/issues/226)) ([b81dfee](https://github.com/jonreesesplxvrk/mimir-wallet/commit/b81dfee860775567f464f5c78ce76c2465428feb))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * devDependencies
+    * @mimir-wallet/service bumped to 3.0.0
+
 ## [2.32.0](https://github.com/mimir-labs/mimir-wallet/compare/polkadot-core-v2.31.0...polkadot-core-v2.32.0) (2025-10-14)
 
 

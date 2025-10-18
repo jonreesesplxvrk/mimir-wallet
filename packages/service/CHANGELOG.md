@@ -1,5 +1,31 @@
 # Changelog
 
+## [3.0.0](https://github.com/jonreesesplxvrk/mimir-wallet/compare/service-v2.32.0...service-v3.0.0) (2025-10-18)
+
+
+### ⚠ BREAKING CHANGES
+
+* implement omni-chain support with multi-network balances and transactions ([#198](https://github.com/jonreesesplxvrk/mimir-wallet/issues/198))
+
+### Features
+
+* add bounty manager dapp support for paseo chain ([#181](https://github.com/jonreesesplxvrk/mimir-wallet/issues/181)) ([90d294e](https://github.com/jonreesesplxvrk/mimir-wallet/commit/90d294e0863bdd045a1b368fb06927dc3fbf4a7f))
+* Add cross-chain calldata display component ([#291](https://github.com/jonreesesplxvrk/mimir-wallet/issues/291)) ([66a624f](https://github.com/jonreesesplxvrk/mimir-wallet/commit/66a624f8b81e06d03098bca1d0a36178984ee4ec))
+* Add dry run API support for transaction simulation ([#207](https://github.com/jonreesesplxvrk/mimir-wallet/issues/207)) ([460cc02](https://github.com/jonreesesplxvrk/mimir-wallet/commit/460cc02f33e5c2e7fa4632ac6e15bdfdcfe1d05b))
+* Add notification center feature ([#282](https://github.com/jonreesesplxvrk/mimir-wallet/issues/282)) ([35de189](https://github.com/jonreesesplxvrk/mimir-wallet/commit/35de189a9b5d76d5ae975fbd154fde99309d2970))
+* Add proposer management for multisig members and enable propose transaction submission ([#171](https://github.com/jonreesesplxvrk/mimir-wallet/issues/171)) ([22ff052](https://github.com/jonreesesplxvrk/mimir-wallet/commit/22ff052b2603120e144a6ce368eb83e6988772a2))
+* Add remote proxy support ([#236](https://github.com/jonreesesplxvrk/mimir-wallet/issues/236)) ([bf5b509](https://github.com/jonreesesplxvrk/mimir-wallet/commit/bf5b50956ce140bce5ef547751f6782a807a4358))
+* add transaction subscription functionality ([#213](https://github.com/jonreesesplxvrk/mimir-wallet/issues/213)) ([893ed83](https://github.com/jonreesesplxvrk/mimir-wallet/commit/893ed832e7edaf9e6f191f50f9b8909fe0b9af4f))
+* Add zkVerify testnet supported ([#251](https://github.com/jonreesesplxvrk/mimir-wallet/issues/251)) ([42275ff](https://github.com/jonreesesplxvrk/mimir-wallet/commit/42275ffdff6e2565f754a86c8a3939b33e1add7d))
+* implement omni-chain support with multi-network balances and transactions ([#198](https://github.com/jonreesesplxvrk/mimir-wallet/issues/198)) ([a7db3f4](https://github.com/jonreesesplxvrk/mimir-wallet/commit/a7db3f47ab58e0453dae1d0a02b251ba62bdef5f))
+* Improve UI display and user experience ([#218](https://github.com/jonreesesplxvrk/mimir-wallet/issues/218)) ([9d7ac2a](https://github.com/jonreesesplxvrk/mimir-wallet/commit/9d7ac2aeb2a30508082e389dea3322e8f902315b))
+* Optimize balance retrieval logic ([#311](https://github.com/jonreesesplxvrk/mimir-wallet/issues/311)) ([f5ab601](https://github.com/jonreesesplxvrk/mimir-wallet/commit/f5ab60154016b37483b5cf7c0b40e77c400967b2))
+* remove assethub next westend network ([#232](https://github.com/jonreesesplxvrk/mimir-wallet/issues/232)) ([ad3366f](https://github.com/jonreesesplxvrk/mimir-wallet/commit/ad3366f236b0d5784e6b0b0826b28bea5243202b))
+* remove batch restore functionality ([#204](https://github.com/jonreesesplxvrk/mimir-wallet/issues/204)) ([36bb035](https://github.com/jonreesesplxvrk/mimir-wallet/commit/36bb0350665c8896d9abe69c9a26ea4f9b57a252))
+* subscribe wallet accounts changed ([#176](https://github.com/jonreesesplxvrk/mimir-wallet/issues/176)) ([d8f04e7](https://github.com/jonreesesplxvrk/mimir-wallet/commit/d8f04e76ecbf77af7137c3c11d51a1e724bfc4ef))
+* **ui:** enhance transaction components and improve user experience ([#261](https://github.com/jonreesesplxvrk/mimir-wallet/issues/261)) ([1c43855](https://github.com/jonreesesplxvrk/mimir-wallet/commit/1c43855f479fa1665b9240453e1ed8aa23ec8a4f))
+* **ui:** refactor create multisig UX with responsive design and step wizard ([#267](https://github.com/jonreesesplxvrk/mimir-wallet/issues/267)) ([e07df8a](https://github.com/jonreesesplxvrk/mimir-wallet/commit/e07df8a2b0e5b5755782d79380d2e699ab9263d9))
+
 ## [2.32.0](https://github.com/mimir-labs/mimir-wallet/compare/service-v2.31.0...service-v2.32.0) (2025-10-14)
 
 
